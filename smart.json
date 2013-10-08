@@ -1,5 +1,5 @@
 {
-  "name": "moment-ejon",
+  "name": "moment-ejson",
   "description": "EJSON support for Moment",
   "homepage": "https://github.com/Multiply/meteor-moment-ejson",
   "author": "Jens Ulrich Hjuler Pedersen <multiply@juhp.net> (http://juhp.net)",
