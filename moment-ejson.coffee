@@ -3,7 +3,7 @@ moment.fn.typeName = -> 'Moment'
 
 # Check if the moment is an instance of `Moment`, and if it matches our current value
 moment.fn.equals = (compare) ->
-	false if compare.hasOwnProperty('_d') and compare.hasOwnProperty('_f') and compare.hasOwnProperty '_i'
+	false if not compare.hasOwnProperty('_d') or not compare.hasOwnProperty('_f') or not compare.hasOwnProperty '_i'
 	compare.valueOf() is @valueOf()
 
 # Map `toJSONValue` to `valueOf`

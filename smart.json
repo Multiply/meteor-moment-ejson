@@ -3,7 +3,7 @@
   "description": "EJSON support for Moment",
   "homepage": "https://github.com/Multiply/meteor-moment-ejson",
   "author": "Jens Ulrich Hjuler Pedersen <multiply@juhp.net> (http://juhp.net)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "git": "https://github.com/Multiply/meteor-moment-ejson.git",
   "packages": {
   	"moment": "2.2.1"
